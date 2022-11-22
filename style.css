@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+html {
+    /*overflow: scroll;*/
+}
+
 body {
-    height: 100vh;
+    /*height: 100vh;*/
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     font-family: Roboto, sans-serif;
 }
 
@@ -12,3 +16,18 @@ body {
     
 }
 
+.header-logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Not sure whether to use this code or to code the image sizes in the HTML*/
+.card {
+    width: 256px;
+
+}
+
+.card img {
+    width: 256px;
+    height: auto;
+}
