@@ -61,15 +61,44 @@ body {
 
 .container-1-navy {
     background-color: #20db92;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-2-image-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.c2-c2-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 0;
+}
+
+.card .card-caption {
+    display: flex;
+    font-size: 11px;
+    text-align: justify;
 }
 
 /* Not sure whether to use this code or to code the image sizes in the HTML*/
-.card {
-    width: 256px;
 
-}
 
 .card img {
+    width: auto;
+    height: 64px;
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.c1-item2-image {
     width: 256px;
     height: auto;
 }
