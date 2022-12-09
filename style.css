@@ -11,6 +11,32 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+button {
+    border: none;
+    border-radius: 8px;
+    background: rgb(66, 36, 157);
+    color: white;
+    padding: 8px 24px;
+  }
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.empty {
+    border: dashed black 4px;
+    display: flex;
+    flex: 1 0 0;
+}
+
 .webpage {
     display: flex;
     flex-direction: column;
@@ -27,11 +53,9 @@ body {
     justify-content: space-between;
 }
 
-.header-container .empty {
-    display: flex;
-    flex: 1 0 0;
-    
-    border: dashed black 4px;
+
+.header-links li a {
+    color: navy;
 }
 
 .logo-container {
@@ -55,7 +79,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 0.4em;
+    gap: 1.4em;
     border: solid pink 4px;
 }
 
@@ -63,6 +87,32 @@ body {
     background-color: #20db92;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    gap: 4em;
+}
+
+.c1-c1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 256px;
+    border: dashed black 4px;
+}
+
+.c1-c1-1-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.c1-c1 div {
+    color: white;
+}
+
+.c1-c2-image {
+    width: 256px;
+    height: auto;
 }
 
 .container-2-image-cards {
@@ -96,19 +146,4 @@ body {
     height: 64px;
     display: flex;
     flex: 0 1 auto;
-}
-
-.c1-item2-image {
-    width: 256px;
-    height: auto;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
 }
