@@ -32,7 +32,7 @@ ul {
 }
 
 .empty {
-    border: dashed black 4px;
+    /*border: dashed black 4px;*/
     display: flex;
     flex: 1 0 0;
 }
@@ -60,7 +60,7 @@ ul {
 
 .logo-container {
     display: flex;
-    border: solid salmon 4px;
+    /*border: solid salmon 4px;*/
     flex-direction: row;
     justify-content: flex-start;
 }
@@ -80,7 +80,7 @@ ul {
     align-items: center;
     justify-content: flex-end;
     gap: 1.4em;
-    border: solid pink 4px;
+    /*border: solid pink 4px;*/
 }
 
 .container-1-navy {
@@ -89,6 +89,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     gap: 4em;
+    padding: 4em;
 }
 
 .c1-c1 {
@@ -98,7 +99,7 @@ ul {
     align-items: center;
     gap: 1em;
     width: 256px;
-    border: dashed black 4px;
+    /*border: dashed black 4px;*/
 }
 
 .c1-c1-1-header {
@@ -118,17 +119,23 @@ ul {
 .container-2-image-cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    /*border: 4px dashed sienna;*/
+    padding: 1em;
 }
 
 .c2-c2-cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2em;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    gap: 1em;
     flex: 0 1 0;
 }
 
@@ -146,4 +153,65 @@ ul {
     height: 64px;
     display: flex;
     flex: 0 1 auto;
+}
+
+.container-3-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(129, 159, 184);
+    padding: 28px;
+}
+
+.c3-subcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.c3-1-main {
+    font-size: 28px;
+}
+
+.c3-2-attribution {
+    align-self: flex-end
+}
+
+.container-4-blue-signup {
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+}
+
+.c4-empty, .c3-empty {
+    display: flex;
+    flex: 3 1 0;
+}
+
+.c4-1-subcontainer {
+    background: rgb(66, 36, 157);
+    color: white;
+    flex: 4 1 0;
+    display: flex;
+    padding: 0.5em 8em;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.c4-1-1-1-top {
+    font-weight: bold;
+    font-size: larger;
+}
+
+button.c4-1-2-right {
+    border: 1px solid white;
+}
+
+.footer-container {
+    color:black;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    display: flex;
+    background: #20db92;
 }
