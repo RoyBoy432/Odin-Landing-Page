@@ -19,6 +19,10 @@ button {
     padding: 8px 24px;
   }
 
+  button.c1-c1-3-button {
+    padding: 8px 24px;
+  }
+
 a {
     color: white;
     font-weight: bold;
@@ -180,30 +184,51 @@ ul {
     display: flex;
     flex-direction: row;
     padding: 3em;
+    justify-content: space-between;
+    align-items: ;
 }
 
 .c4-empty, .c3-empty {
     display: flex;
     flex: 3 1 0;
+    /*border: 4px dashed salmon;*/
 }
 
 .c4-1-subcontainer {
+    display: flex;
     background: rgb(66, 36, 157);
     color: white;
     flex: 4 1 0;
-    display: flex;
-    padding: 0.5em 8em;
+    padding: 0.5em 4em;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 4em;
 }
+
 
 .c4-1-1-1-top {
     font-weight: bold;
     font-size: larger;
 }
 
-button.c4-1-2-right {
+/*.c4-1-1-left {
+    border:2px dashed #20db92
+}*/
+
+.c4-1-2-button-container {
+    display: flex;
+    flex-direction: row;
+    /*border: 2px dashed hotpink;*/
+    align-self: center;
+}
+
+button.c4-1-2-button {
     border: 1px solid white;
+    align-self: right;
+    display: flex;
+    flex: 1 0 0;
+    width: 8em;
+    justify-content: center;
 }
 
 .footer-container {
